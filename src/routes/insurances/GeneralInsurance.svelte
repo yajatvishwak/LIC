@@ -10,7 +10,9 @@
   </div>
   <div class="mb-10 text-center ">zindgi ke saath bhi, zindagi ke baad bhi</div>
 
-  <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+  <div
+    class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-auto max-w-screen-xl "
+  >
     <Card />
     <Card />
     <Card />

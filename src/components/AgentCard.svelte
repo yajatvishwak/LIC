@@ -1,18 +1,21 @@
 <script>
   export let openModal;
+  export let agentID;
 </script>
 
 <div
-  on:click={() => openModal("agentid")}
+  on:click={() => openModal(agentID)}
   class="border p-5 hover:bg-indigo-300 flex-col md:flex-row hover:text-indigo-700 transition-all cursor-pointer rounded-xl flex items-center justify-between"
 >
-  <img
-    src="https://joeschmoe.io/api/v1/random"
-    class="rounded-full w-14 bg-white border "
-    alt=""
-  />
-  <div class="text-xl text-center  my-5 md:my-0 mx-5 font-bold ">
-    This is the name of the agent
+  <div class="flex items-center gap-3">
+    <img
+      src="https://joeschmoe.io/api/v1/random"
+      class="rounded-full w-14 bg-white border "
+      alt=""
+    />
+    <div class="text-xl text-center  my-5 md:my-0 mx-5 font-bold ">
+      This is the name of the agent
+    </div>
   </div>
   <div class="flex">
     <div class="mx-3 font-bold">Connect</div>

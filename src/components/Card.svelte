@@ -1,8 +1,11 @@
 <script>
+  import { push } from "svelte-spa-router";
+
   import InsuranceBase from "../routes/insurances/InsuranceBase.svelte";
 </script>
 
 <div
+  on:click={() => push("/general/temp")}
   class="p-4 flex flex-col border rounded-lg hover:text-indigo-700 hover:bg-indigo-300 cursor-pointer transition-all"
 >
   <div>

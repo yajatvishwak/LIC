@@ -3,15 +3,21 @@ import LifeInsurance from "./routes/insurances/LifeInsurance.svelte";
 import HealthInsurance from "./routes/insurances/HealthInsurance.svelte";
 import GeneralInsurance from "./routes/insurances/GeneralInsurance.svelte";
 import GeneralInsuranceDetail from "./routes/insurances/GeneralInsuranceDetail.svelte";
+import InsuranceEdit from './routes/InsuranceEdit.svelte';
+import Admin from "./routes/Admin.svelte";
 import NotFound from "./routes/NotFound.svelte";
+
 
 const routes = {
   // Exact path
   "/": Home,
   "/life": LifeInsurance,
   "/general": GeneralInsurance,
-  "/general/:gid": GeneralInsuranceDetail,
+  "/general/:iid": GeneralInsuranceDetail,
   "/health": HealthInsurance,
+  "/admin": Admin,
+  "/edit/insurance/:iid": InsuranceEdit,
+  "/edit/agent/:aid": InsuranceEdit,
 
   //   // Using named parameters, with last being optional
   //   "/author/:first/:last?": Author,

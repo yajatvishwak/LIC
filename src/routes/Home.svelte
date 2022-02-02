@@ -6,14 +6,14 @@
 <section class="">
   <Nav />
   <section
-    class="min-h-96 max-w-screen-2xl mx-auto  flex justify-center items-center flex-1 flex-shrink-0 bg-gray-100 overflow-hidden shadow-lg rounded-lg relative py-16 md:py-20 xl:py-48"
+    class="  flex justify-center items-center relative py-16 md:py-20 xl:py-48"
   >
     <!-- image - start -->
     <img
       src="https://static.vecteezy.com/system/resources/previews/002/743/198/non_2x/topographic-map-contour-lines-background-free-vector.jpg"
       loading="lazy"
       alt="Photo by Fakurian Design"
-      class="w-full h-full object-cover object-center absolute inset-0"
+      class="w-full h-full object-cover object-center absolute inset-0 "
     />
     <!-- image - end -->
 
