@@ -5,7 +5,7 @@
 </script>
 
 <InsuranceBase>
-  <div class="text-2xl lg:text-4xl text-center font-bold text-indigo-400">
+  <div class="text-2xl lg:text-4xl text-center font-bold text-blue-400">
     Our General Insurance
   </div>
   <div class="mb-10 text-center ">zindgi ke saath bhi, zindagi ke baad bhi</div>

@@ -18,12 +18,12 @@
     <!-- image - end -->
 
     <!-- overlay - start -->
-    <div class="bg-indigo-500 mix-blend-multiply absolute inset-0" />
+    <div class="bg-blue-500 mix-blend-multiply absolute inset-0" />
     <!-- overlay - end -->
 
     <!-- text start -->
     <div class="sm:max-w-xl flex flex-col items-center relative p-4">
-      <p class="text-indigo-200 text-lg sm:text-xl text-center mb-4 md:mb-8">
+      <p class="text-blue-200 text-lg sm:text-xl text-center mb-4 md:mb-8">
         Very proud to introduce
       </p>
       <h1
@@ -35,7 +35,7 @@
       <div class="w-full flex flex-col sm:flex-row sm:justify-center gap-2.5">
         <a
           href="#start"
-          class="inline-block bg-indigo-500 hover:bg-indigo-600 active:bg-indigo-700 focus-visible:ring ring-indigo-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3"
+          class="inline-block bg-blue-500 hover:bg-blue-600 active:bg-blue-700 focus-visible:ring ring-blue-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3"
           >Start now</a
         >
       </div>
@@ -51,15 +51,13 @@
       <div class="flex flex-wrap md:flex-nowrap gap-4">
         <div
           on:click={() => push("/life")}
-          class="flex flex-col border hover:bg-indigo-300 transition-all  cursor-pointer w-full p-5 rounded-lg"
+          class="flex flex-col border hover:bg-blue-300 transition-all  cursor-pointer w-full p-5 rounded-lg"
         >
-          <div class="font-bold text-xl  text-indigo-500 ">
+          <div class="font-bold text-xl  text-blue-500 ">
             <div class="flex items-center">
               <img
-                src="https://cdn-icons.flaticon.com/png/512/2415/premium/2415177.png?token=exp=1640372516~hmac=bbbeecc891d46b20a88b40063ede23b6"
-                alt=""
-                class="w-10"
-                srcset=""
+                class="rounded-3xl"
+                src="https://img.icons8.com/ios-filled/90/000000/heart-monitor.png"
               />
               <div class="ml-6 text-2xl">Life Insurance</div>
             </div>
@@ -73,16 +71,13 @@
         </div>
 
         <div
-          on:click={() => push("/general")}
-          class="flex flex-col border  hover:bg-indigo-300  transition-all cursor-pointer w-full p-5 rounded-lg"
+          on:click={() => push("/car")}
+          class="flex flex-col border  hover:bg-blue-300  transition-all cursor-pointer w-full p-5 rounded-lg"
         >
-          <div class="font-bold text-xl  text-indigo-500 ">
+          <div class="font-bold text-xl  text-blue-500 ">
             <div class="flex items-center">
               <img
-                src="https://cdn-icons.flaticon.com/png/512/4544/premium/4544523.png?token=exp=1640408113~hmac=e8ebc614202c1be9e7a4e1a2b41fb85d"
-                alt=""
-                class="w-10"
-                srcset=""
+                src="https://img.icons8.com/ios-glyphs/90/000000/car--v1.png"
               />
               <div class="ml-6 text-2xl">Car Insurance</div>
             </div>
@@ -95,18 +90,15 @@
           </div>
         </div>
         <div
-          on:click={() => push("/health")}
-          class="flex flex-col border  hover:bg-indigo-300 transition-all  cursor-pointer w-full p-5 rounded-lg"
+          on:click={() => push("/general")}
+          class="flex flex-col border  hover:bg-blue-300 transition-all  cursor-pointer w-full p-5 rounded-lg"
         >
-          <div class="font-bold text-xl  text-indigo-500 ">
+          <div class="font-bold text-xl  text-blue-500 ">
             <div class="flex items-center">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/2966/2966334.png"
-                alt=""
-                class="w-10"
-                srcset=""
+                src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/90/000000/external-insurance-finance-kiranshastry-solid-kiranshastry-1.png"
               />
-              <div class="ml-6 text-2xl">Health Insurance</div>
+              <div class="ml-6 text-2xl">General Insurance</div>
             </div>
             <div class="text-black font-normal mt-3 text-lg">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -117,6 +109,24 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div
+    class="mt-10 w-full bg-gray-50 p-10 flex flex-col md:flex-row items-center justify-between  "
+  >
+    <div class="flex items-center gap-5">
+      <div
+        on:click={() => push("/admin")}
+        class="cursor-pointer hover:text-blue-600"
+      >
+        Admin Login
+      </div>
+      <div>|</div>
+      <div class="cursor-pointer">Contact us</div>
+    </div>
+    <div class="flex items-center flex-col md:mt-0 mt-4">
+      <img src="./imgs/logo.png" class="w-28" alt="" srcset="" />
+      <div>© All Rights Reserved</div>
     </div>
   </div>
 </section>

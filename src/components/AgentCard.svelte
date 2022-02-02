@@ -5,7 +5,7 @@
 
 <div
   on:click={() => openModal(agentID)}
-  class="border p-5 hover:bg-indigo-300 flex-col md:flex-row hover:text-indigo-700 transition-all cursor-pointer rounded-xl flex items-center justify-between"
+  class="border p-5 hover:bg-blue-300 flex-col md:flex-row hover:text-blue-700 transition-all cursor-pointer rounded-xl flex items-center justify-between"
 >
   <div class="flex items-center gap-3">
     <img

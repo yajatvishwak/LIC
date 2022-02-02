@@ -6,12 +6,12 @@
   let agents = [
     {
       imageURL: "https://joeschmoe.io/api/v1/random",
-      nameOfAgent: "JohnDoe",
-      agentID: "adga234",
+      nameOfAgent: "JohnDoe1",
+      agentID: "adga23411",
     },
     {
       imageURL: "https://joeschmoe.io/api/v1/random",
-      nameOfAgent: "JohnDoe",
+      nameOfAgent: "JohnDoe2",
       agentID: "adga234",
     },
     {
@@ -39,7 +39,7 @@
     >
       <div
         on:click={closeModal}
-        class="p-2 rounded-full -top-3 -right-3 bg-indigo-600 absolute"
+        class="p-2 rounded-full -top-3 -right-3 bg-blue-600 absolute"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@
           srcset=""
         />
         <div class="text-xl mt-3 font-semibold text-center">
-          Yajat Vishwakarma
+          {selectedAgent}
         </div>
         <div class="opacity-70 ">LIC super agent</div>
         <div class="lg:max-w-md mt-3 text-center">
@@ -124,7 +124,7 @@
         </div>
       </div>
       <div>
-        <div class="text-3xl font-bold text-indigo-400">Our Agents</div>
+        <div class="text-3xl font-bold text-blue-400">Our Agents</div>
         <div class="text-base">Best in town</div>
         <div class="flex flex-col mt-5 gap-6">
           {#each agents as agent}

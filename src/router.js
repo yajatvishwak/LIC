@@ -1,9 +1,11 @@
 import Home from "./routes/Home.svelte";
 import LifeInsurance from "./routes/insurances/LifeInsurance.svelte";
-import HealthInsurance from "./routes/insurances/HealthInsurance.svelte";
+import CarInsurance from "./routes/insurances/CarInsurance.svelte";
 import GeneralInsurance from "./routes/insurances/GeneralInsurance.svelte";
 import GeneralInsuranceDetail from "./routes/insurances/GeneralInsuranceDetail.svelte";
 import InsuranceEdit from './routes/InsuranceEdit.svelte';
+import AddInsurance from './routes/AddInsurance.svelte';
+import AddAgent from './routes/AddAgent.svelte';
 import Admin from "./routes/Admin.svelte";
 import NotFound from "./routes/NotFound.svelte";
 
@@ -14,10 +16,12 @@ const routes = {
   "/life": LifeInsurance,
   "/general": GeneralInsurance,
   "/general/:iid": GeneralInsuranceDetail,
-  "/health": HealthInsurance,
+  "/car": CarInsurance,
   "/admin": Admin,
   "/edit/insurance/:iid": InsuranceEdit,
   "/edit/agent/:aid": InsuranceEdit,
+  "/add/insurance/": AddInsurance,
+  "/add/agent/": AddAgent,
 
   //   // Using named parameters, with last being optional
   //   "/author/:first/:last?": Author,

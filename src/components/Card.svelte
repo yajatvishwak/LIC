@@ -6,7 +6,7 @@
 
 <div
   on:click={() => push("/general/temp")}
-  class="p-4 flex flex-col border rounded-lg hover:text-indigo-700 hover:bg-indigo-300 cursor-pointer transition-all"
+  class="p-4 flex flex-col border rounded-lg hover:text-blue-700 hover:bg-blue-300 cursor-pointer transition-all"
 >
   <div>
     <img

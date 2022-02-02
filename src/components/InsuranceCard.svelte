@@ -4,6 +4,7 @@
   export let title = "";
   export let insuranceID = "";
   export let status = "";
+  export let type = "";
   export let tags = [];
 </script>
 
@@ -17,6 +18,7 @@
     </div>
 
     <div class="flex gap-4 mt-3">
+      <div class="lg:px-7 px-3  rounded-full border py-1">{type}</div>
       {#each tags as tag}
         <div class="lg:px-7 px-3  rounded-full border py-1">{tag}</div>
       {/each}
